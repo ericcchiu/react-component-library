@@ -1,8 +1,10 @@
 /*
-* A controlled carousel component
+* A controlled carousel component with react hooks
+* Note: Ensure uploaded images are the same size
 */
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
+import './CarouselView'
 
 const CarouselView = () => {
 
@@ -11,11 +13,11 @@ const CarouselView = () => {
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
-    setDirection(e.target.value);
+    setDirection(e)
   }
 
   return (
-    <div className="carousel-view-container">
+    <div className="carousel-container">
       <Carousel
         activeIndex={index}
         direction={direction}
@@ -24,7 +26,7 @@ const CarouselView = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
+            src="./images/COH2.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -36,7 +38,7 @@ const CarouselView = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src="./images/Shogun2.jpg"
             alt="Third slide"
           />
           <Carousel.Caption>
@@ -48,7 +50,7 @@ const CarouselView = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src="./images/COH2_Tank.jpg"
             alt="Third slide"
           />
           <Carousel.Caption>

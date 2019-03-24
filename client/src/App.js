@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import NavigationBar from './components/NavigationBar';
-// import CarouselView from './components/refactor';
-import CarouselView from './components/CarouselView';
+import CarouselView from './components/CarouselComponent/CarouselViewRefactor';
 const App = () => {
   return (
     <div className="App">
