@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ericcchiu/boilerplate-react.git"
+    "url": "git+https://github.com/ericcchiu/react-component-library.git"
   },
   "author": "Eric Chiu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ericcchiu/boilerplate-react/issues"
+    "url": "https://github.com/ericcchiu/react-component-library/issues"
   },
-  "homepage": "https://github.com/ericcchiu/boilerplate-react#readme",
+  "homepage": "https://github.com/ericcchiu/react-component-library#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
