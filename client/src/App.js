@@ -4,7 +4,7 @@ import NavigationBar from './components/NavigationBar';
 import CarouselView from './components/CarouselComponent/CarouselViewRefactor';
 
 const App = () => {
-  const [isLoading, setLoading] = useState(true);
+  const [isLoading, setLoading] = useState(false);
 
   return (
     <div className="App">
