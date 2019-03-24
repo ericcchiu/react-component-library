@@ -1,6 +1,6 @@
 module.exports = {
-  context: `${__dirname}/client/src`,
-  entry: './index.js',
+  mode: 'development',
+  entry: __dirname + '/client/src/index.js',
   module: {
     rules: [
       {
