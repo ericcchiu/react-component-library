@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import './CarouselView'
 
-const CarouselView = () => {
+const CarouselView = (props) => {
 
   const [index, setIndex] = useState(0);
   const [direction, setDirection] = useState(null);
@@ -15,7 +15,6 @@ const CarouselView = () => {
     setIndex(selectedIndex);
     setDirection(e)
   }
-
   return (
     <div className="carousel-container">
       <Carousel
