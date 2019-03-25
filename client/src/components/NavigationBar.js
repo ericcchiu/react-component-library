@@ -4,7 +4,7 @@ import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
 const NavigationBar = () => {
   return (
     <>
-      <Navbar className="topbar-container" bg="dark" variant="dark">
+      <Navbar className="topbar-container" bg="dark" variant="dark" fixed="top">
         <Nav className="topbar-left-links">
           <Nav.Link href="#explore">Explore</Nav.Link>
           <Nav.Link href="#start">Start a project</Nav.Link>
@@ -19,7 +19,7 @@ const NavigationBar = () => {
         </Nav>
       </Navbar>
 
-      <Navbar className="navbar-container" bg="dark" variant="dark">
+      <Navbar className="navbar-container" bg="dark" variant="dark" fixed="bottom">
         <Nav className="navbar-links">
           <Nav.Link href="#arts">Arts</Nav.Link>
           <Nav.Link href="#comics-illustration">Comics & Illustration</Nav.Link>
